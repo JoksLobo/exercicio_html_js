@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuário JS</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de Valores</h1>
+        <h2>Insira abaixo os valores para serem comparados:</h2>
+        <form id="form-valores">
+            <input type="number" id="valor-a" required placeholder="Insira o primeiro valor a ser comparado"/>
+            <input type="number" id="valor-b" required placeholder="Insira o segundo valor a ser comparado"/>
+            <button type="submit" id="btn-comparar">Comparar</button>
+        </form>
+        <p class="error-message"></p>
+        <p class="success-message"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
